@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-size: 16px; /* Adjust font size for better readability */
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    background-color: red;
+    padding: 10px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.moneylogo {
+    width: 50px; /* Adjust image size for smaller screens */
+    border-radius: 50%; /* Make the logo round */
+}
+
+.amount,
+.key,
+.calenderp,
+.eaSyLinks,
+.logosp {
+    margin-left: 10px; /* Adjust margins */
+}
+
+.dolls {
+    font-size: 40px; /* Adjust font size */
+}
+
+.arsh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    border-bottom: solid;
+    margin-top: 10px; /* Adjust margin */
+    padding-bottom: 10px; /* Add padding for better spacing */
+}
+
+.calender {
+    width: 15px;
+    margin-right: 3px;
+}
+
+.logos,
+.logosp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-top: 10px; /* Adjust margin */
+}
+
+.logosp p {
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold;
+}
+
+/* Adjust margins for individual logo items if needed */
+.binance {
+    font-weight: bold;
+}
+
+.metamask {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.trust {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.cards {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.logos img {
+    width: 30px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
